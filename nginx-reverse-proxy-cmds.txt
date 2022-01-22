@@ -1,0 +1,5 @@
+systemctl stop nginx
+certbot certonly -d <domain>
+nano /etc/nginx/sites-available/<domain>.conf
+ln -s /etc/nginx/sites-available/<domain>.conf /etc/nginx/sites-enabled/<domain>.conf
+systemctl start nginx
