@@ -7,6 +7,8 @@ A collection of helpful Linux scripts.
 [Nginx Conf file](/nginx-reverse-proxy-config.conf)
 
 ## Install Services
+
+#Nginx + Certbot
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/HalfdanDK/linux-scripts/master/update-and-webserver.sh)
 ```
