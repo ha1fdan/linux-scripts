@@ -8,7 +8,7 @@ A collection of helpful Linux scripts.
 
 ## Install Services
 
-# Nginx + Certbot
+### Nginx + Certbot
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/HalfdanDK/linux-scripts/master/update-and-webserver.sh)
 ```
