@@ -13,5 +13,6 @@ Nginx + Certbot
 bash <(curl -s https://raw.githubusercontent.com/HalfdanDK/linux-scripts/master/update-and-webserver.sh)
 ```
 ### Host SSL Website with Nginx
-Remember to replace <domain> with your domain and create a cert
+Remember to replace <domain> with your domain and create a cert.
+  
 [Nginx SSL Conf file](/nginx-ssl-website-config.conf)
