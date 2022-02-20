@@ -10,7 +10,7 @@ A collection of helpful Linux scripts.
 
 Nginx + Certbot
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/HalfdanDK/linux-scripts/master/update-and-webserver.sh)
+sudo bash <(curl -s https://raw.githubusercontent.com/HalfdanDK/linux-scripts/master/update-and-webserver.sh)
 ```
 ### Host SSL Website with Nginx
 Remember to replace <domain> with your domain and create a cert.
@@ -20,5 +20,5 @@ Remember to replace <domain> with your domain and create a cert.
 ### Install pterodactyl (simple)
 Remember to set your dns ;)
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/HalfdanDK/linux-scripts/master/setup-pterodactyl-arm.sh)
+sudo bash <(curl -s https://raw.githubusercontent.com/HalfdanDK/linux-scripts/master/setup-pterodactyl-arm.sh)
 ```
