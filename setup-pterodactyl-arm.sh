@@ -1,6 +1,6 @@
 apt update
 apt upgrade -y
-apt install firewalld
+apt install firewalld -y
 firewall-cmd --add-port=25565-25590/udp --permanent
 firewall-cmd --add-port=25565-25590/tcp --permanent
 firewall-cmd --add-port=80/tcp --permanent
