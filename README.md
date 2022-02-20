@@ -16,3 +16,9 @@ bash <(curl -s https://raw.githubusercontent.com/HalfdanDK/linux-scripts/master/
 Remember to replace <domain> with your domain and create a cert.
   
 [Nginx SSL Conf file](/nginx-ssl-website-config.conf)
+
+### Install pterodactyl (simple)
+Remember to set your dns ;)
+```bash
+bash <(curl -s https://raw.githubusercontent.com/HalfdanDK/linux-scripts/master/setup-pterodactyl-arm.sh)
+```
