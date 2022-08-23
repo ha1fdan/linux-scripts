@@ -1,8 +1,6 @@
-#!/bin/bash
 apt update
 apt upgrade -y
 
-# Firewall Stuff
 apt install firewalld -y
 firewall-cmd --add-port=80/tcp --permanent
 firewall-cmd --add-port=80/udp --permanent
@@ -17,7 +15,6 @@ systemctl enable --now firewalld
 systemctl start firewalld
 systemctl restart firewalld
 
-# Install Dependencies
 apt -y install php8.1 php8.1-{common,cli,gd,mysql,mbstring,bcmath,xml,fpm,curl,zip} mariadb-server nginx tar unzip git
 sudo apt install -y certbot
 sudo apt install -y python3-certbot-nginx
